@@ -209,6 +209,53 @@ The R2 Score of each regression model is as following
 Where Linear Regression and Ridge regression obtained the best r2 score at 0.9337 
 and 0.9328 respectively
 
+The Scatter plots is as following:
+
+![Screenshot 2023-01-23 161200](https://user-images.githubusercontent.com/118182347/214060775-44825f25-f089-4fb5-892a-7e6a8d81089c.png)
+
+To achieve better accuracy, I have implemented polynomial transformation of 
+features in the pipeline.
+
+![Screenshot 2023-01-23 161317](https://user-images.githubusercontent.com/118182347/214061072-4e178fc0-6996-4cd1-9bc8-970469c5b1af.png)
+
+
+The R2 Scores of the Regression models after using Polynomial features is as 
+following
+
+
+![Screenshot 2023-01-23 161402](https://user-images.githubusercontent.com/118182347/214061259-917e98cd-9571-48a7-84ae-194af2fae39f.png)
+
+We can observe that r2 score increase significantly after implementing polynomial 
+transformation.
+
+The scatter plots of the Regression models after using Polynomial features is as 
+following
+
+![Screenshot 2023-01-23 161514](https://user-images.githubusercontent.com/118182347/214061506-bae549a1-64d4-4179-8b52-c9bace16a967.png)
+
+Therefore, I have chosen Linear Regression with Polynomial transformation (2 Degrees) 
+since it has the best R2 Score
+
+Key Findings
+
+Looking at the coefficients on the Linear Regression model, we can find that the most 
+important features are Brittleness Ratio and Porosity.
+
+
+![Screenshot 2023-01-23 161627](https://user-images.githubusercontent.com/118182347/214061790-19ce5ebb-4983-4bed-bfd0-86a8bfe3e382.png)
+
+Next Steps
+
+
+Adding more features such as the Reynold numbers, fracture rate, pressure, mass of the 
+gas, number of gas moles, specific gravity of the reservoir, wet gas temperatures can 
+help us build a more solid model that is able to predict production rates more accurately 
+and will make us more confident in our regression model predictions
+
+
+
+
+
 
 
 
