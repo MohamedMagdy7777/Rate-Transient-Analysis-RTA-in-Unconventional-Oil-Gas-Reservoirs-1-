@@ -108,9 +108,16 @@ Techniques to apply
 another
 • Heatmap plot to check if there are any features that are linearly correlated
 
+NSIGHTS
+
+From the Histogram and Density plots shown in Figure 2, we can see that all features 
+including the target feature are normally distributed, however Matrix Perm (nd) has a 
+positive skew, Brittleness ratio and TOC has a negative skew
 
 
 
 
 
 
+
+![histogram](https://user-images.githubusercontent.com/118182347/214057656-c8803f31-e8c7-4fe7-b304-aa327810c169.png)
