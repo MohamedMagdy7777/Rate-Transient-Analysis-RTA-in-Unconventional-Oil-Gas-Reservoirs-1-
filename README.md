@@ -1,5 +1,9 @@
 # Rate-Transient-Analysis-RTA-in-Unconventional-Oil-Gas-Reservoirs-1-
 Rate Transient Analysis (RTA) in Unconventional Oil &amp; Gas Reservoirs 
+
+
+
+
 INTRODUCTION
 Production from unconventional petroleum reservoirs includes petroleum from 
 shale, coal, tight-sand and oil-sand. These reservoirs contain enormous quantities of oil 
