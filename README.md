@@ -29,3 +29,15 @@ relationship among each other, their significance and their relationship with th
 of the reservoir 𝐴√𝐾 which is simply the cross-sectional area multiplied by the square root 
 of permeability
 
+DESCRIPTION OF THE DATASET
+
+
+The Dataset has the following features 'Porosity (%)', 'Acoustic impedance 
+(kg/m2s*10^6)', 'Brittleness Ratio', 'Vitrinite Reflectance (%)' and the target feature is 
+the 𝐴√𝐾 Aroot(K) as shown in Figure 1
+
+![Screenshot 2023-01-23 155224](https://user-images.githubusercontent.com/118182347/214056614-fee481b0-8e5e-44bc-a260-ced9ec31100f.png)
+
+
+
+
