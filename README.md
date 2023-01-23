@@ -39,5 +39,78 @@ the 𝐴√𝐾 Aroot(K) as shown in Figure 1
 ![Screenshot 2023-01-23 155224](https://user-images.githubusercontent.com/118182347/214056614-fee481b0-8e5e-44bc-a260-ced9ec31100f.png)
 
 
+Figure 1 : Sample of the geological dataset
+
+
+Porosity is a measure of the void spaces in a material, and is a fraction of the volume 
+of voids over the total volume, between 0 and 1, or as a percentage between 0% and 
+100%
+
+
+Matrix Perm “Matrix Permeability” is one of the most important parameters for 
+characterizing a source rock reservoir and for predicting hydrocarbon production. The 
+low permeability value and the presence of induced fractures during core retrieval and 
+transportation make the accurate measurement of the true permeability values for 
+source rocks a significant challenge for the industry
+
+
+Acoustic impedance are measures of the opposition that a system presents to the 
+acoustic flow resulting from an acoustic pressure applied to the system.
+
+
+Brittleness Ratio is the ratio of uniaxial compressive strength to tensile strength.
+
+
+TOC “Total Organic Carbon” is the amount of carbon found in an organic compound 
+and is often used as a non-specific indicator of water quality or cleanliness of 
+pharmaceutical manufacturing equipment. TOC may also refer to the amount of organic 
+carbon in soil, or in a geological formation, particularly the source rock for a petroleum 
+play;
+
+
+Vitrinite Reflectance is the proportion of incident light reflected from a polished vitrinite 
+surface.
+𝑨√𝑲 is a productivity metric obtained from rate transient analysis (RTA) in 
+unconventional reservoirs and it is equivalent to kh in conventional reservoirs. AOK is 
+simply the cross-sectional area multiplied by the square root of permeability
+From the dataset we can observe that all features including the target / output feature is 
+numeric and that there are no categorical features.
+
+
+OBJECTIVE
+
+
+• Understand the dataset and the features
+• Feature engineer the features if required
+• Predict the production of unconventional reservoirs using different regression 
+models
+
+
+• Evaluate the performance of regression models using 3 cross-validation splits
+• Interpret feature importance
+• Identify flaws in the model and formulate a plan.
+
+
+PLAN
+
+
+Python, seaborn, pandas and numpy will be the tools used to conduct the Exploratory 
+Data Analysis, First we will use the .describe() function to understand the dataset more, 
+know the mean, standard deviation, minimum values, maximum values, medians for 
+each features.
+
+Techniques to apply
+
+
+• Histogram and density plots to check if there are skewed data
+• Boxplots to check features that might have outliers
+• Scatter plots will be used to understand the relationship between a feature and 
+another
+• Heatmap plot to check if there are any features that are linearly correlated
+
+
+
+
+
 
 
