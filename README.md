@@ -129,3 +129,15 @@ the features
 ![boxplot](https://user-images.githubusercontent.com/118182347/214058105-dfe9d151-66f8-4720-97f2-a50e86704d20.png)
 
 
+From the pair plot shown in Figure 4, we can observe that Porosity, Matrix Perm are 
+strongly correlated with the target feature Aroot(K), we can also observe that Porosity and 
+Matrix Perm are linearly correlated, TOC and Porosity are also linearly correlated, this 
+means that we can drop the Matrix Perm and TOC columns as they will not provide 
+significant value
+
+
+
+![Screenshot 2023-01-23 160054](https://user-images.githubusercontent.com/118182347/214058500-b41f846d-1e44-4fc8-9114-42df207f20e2.png)
+
+
+
