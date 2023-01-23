@@ -182,5 +182,34 @@ are between the values (0 and 1)
 
 ![Screenshot 2023-01-23 160603](https://user-images.githubusercontent.com/118182347/214059429-45af1f05-e5f2-455e-8fce-29629800e7cb.png)
 
+REGRESSION MODELS
+
+First, I have created the X and y dataframes that will be used to train different 
+linear regression models
+
+![Screenshot 2023-01-23 160714](https://user-images.githubusercontent.com/118182347/214059767-f3b10cd5-2778-4537-9368-910d5d016978.png)
+
+Following that I created sklearn pipelines Linear Regression, Lasso Regression 
+and Ridge Regression which would scale the training set first.
+
+![Screenshot 2023-01-23 160825](https://user-images.githubusercontent.com/118182347/214059952-b8734cdb-dfd4-4cc7-ad0a-ddb75f0da5af.png)
+
+
+Following that I have used KFlod cross validation (3 splits) to make sure I have 
+robust predictions and used cross_val_predict to predict the target feature using 
+Linear Regression, Lasso Regression and Ridge Regression
+
+
+![Screenshot 2023-01-23 160914](https://user-images.githubusercontent.com/118182347/214060218-4404836b-8299-4ac5-9c1f-8b6dd6c44155.png)
+
+The R2 Score of each regression model is as following
+
+![Screenshot 2023-01-23 161023](https://user-images.githubusercontent.com/118182347/214060405-65e6a288-a5bf-4e44-8807-1db21096c963.png)
+
+Where Linear Regression and Ridge regression obtained the best r2 score at 0.9337 
+and 0.9328 respectively
+
+
+
 
 
