@@ -108,7 +108,7 @@ Techniques to apply
 another
 • Heatmap plot to check if there are any features that are linearly correlated
 
-NSIGHTS
+INSIGHTS
 
 From the Histogram and Density plots shown in Figure 2, we can see that all features 
 including the target feature are normally distributed, however Matrix Perm (nd) has a 
@@ -121,3 +121,11 @@ positive skew, Brittleness ratio and TOC has a negative skew
 
 
 ![histogram](https://user-images.githubusercontent.com/118182347/214057656-c8803f31-e8c7-4fe7-b304-aa327810c169.png)
+
+From the Boxplot as shown below in Figure 3, Outliers exist in the Matrix Permeability 
+feature as well as the Vitrinite Reflectance Feature, this can be treated by transforming 
+the features
+
+![boxplot](https://user-images.githubusercontent.com/118182347/214058105-dfe9d151-66f8-4720-97f2-a50e86704d20.png)
+
+
