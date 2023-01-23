@@ -139,5 +139,48 @@ significant value
 
 ![Screenshot 2023-01-23 160054](https://user-images.githubusercontent.com/118182347/214058500-b41f846d-1e44-4fc8-9114-42df207f20e2.png)
 
+DATA CLEANING & FEATURE ENGINEERING
+
+
+As observed in the pair plot Porosity and Matrix Perm are linearly correlated, TOC and 
+Porosity are also linearly correlated, However we want to quantify the Correlation thus 
+we will use the pearson correlation, a threshold we will set is that features that have a 
+person number above 0.7 will be considered linearly correlated and can be dropped 
+from the dataframe. 
+Using the Heatmap function from the seaborn library as shown in Figure 5, we can 
+observe that TOC and Porosity have a pearson correlation number of 0.71, and Matrix 
+Perm and Porosity have a pearson correlation number of 0.76, this means these 
+features are linearly correlated and we can drop any of these features.
+
+
+![Screenshot 2023-01-23 160345](https://user-images.githubusercontent.com/118182347/214058955-722d815d-bc7c-4f06-a8dc-26ca3819ad75.png)
+
+
+Dropping Features
+
+We will drop the Matrix Permeability and the TOC feature as they are already linearly 
+correlated with the Porosity feature
+
+![Screenshot 2023-01-23 160452](https://user-images.githubusercontent.com/118182347/214059180-6446e061-17ef-4ce6-a7ff-b5b79a27e96e.png)
+
+We can observe that the new set of features are: 
+
+1. Porosity
+2. Acoustic Impedance
+3. Brittleness Ratio
+4. Vitrinite Reflectance
+
+
+Scaling
+
+
+We can also observe that we need to scale the features as there are big differences 
+between the values of Brittleness Ratio column and Vitrinite Reflectance column.
+We will use the MinMax scaler from the sklearn library to scale the features so that they 
+are between the values (0 and 1)
+
+
+![Screenshot 2023-01-23 160603](https://user-images.githubusercontent.com/118182347/214059429-45af1f05-e5f2-455e-8fce-29629800e7cb.png)
+
 
 
